@@ -1,5 +1,12 @@
 # Smart Bookmark App — Setup & Deployment Guide
 
+## Introduction
+
+Smart Bookmark App is a simple web application that allows users to save and manage bookmarks securely.
+It uses Supabase authentication to ensure bookmarks are private to each user and supports real-time
+updates across multiple browser tabs.
+
+
 ## Tech Stack
 - **Next.js 15** (App Router)
 - **Supabase** (Auth via Google OAuth, PostgreSQL database, Realtime)
