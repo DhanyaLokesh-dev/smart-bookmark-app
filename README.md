@@ -98,3 +98,14 @@
 - ✅ Delete your own bookmarks
 - ✅ Favicon auto-loading
 - ✅ Responsive design with Tailwind CSS
+
+## Problems Faced & Solutions
+
+**Issue:** OAuth redirect caused blank page after login  
+**Solution:** Added `/app/auth/callback/route.ts` to properly handle Supabase OAuth in Next.js App Router.
+
+
+## Live Demo
+https://smart-bookmark-app-sigma-olive.vercel.app
+
+
